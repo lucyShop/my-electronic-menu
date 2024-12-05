@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的电子菜单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎光临美食天堂</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#starters">开胃菜</a></li>
+            <li><a href="#main-courses">主菜</a></li>
+            <li><a href="#desserts">甜点</a></li>
+            <li><a href="#drinks">饮品</a></li>
+            <li><a href="#cart">购物车</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="starters">
+            <h2>开胃菜</h2>
+            <div class="menu-item">
+                <h3>春卷</h3>
+                <p>外脆里嫩的传统小吃。</p>
+                <span class="price">¥15</span>
+                <button class="add-to-cart" data-name="春卷" data-price="15">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>凉拌黄瓜</h3>
+                <p>清爽的凉拌黄瓜，适合开胃。</p>
+                <span class="price">¥12</span>
+                <button class="add-to-cart" data-name="凉拌黄瓜" data-price="12">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>鸡尾酒虾</h3>
+                <p>鲜美的鸡尾酒虾，搭配特制酱汁。</p>
+                <span class="price">¥45</span>
+                <button class="add-to-cart" data-name="鸡尾酒虾" data-price="45">加入购物车</button>
+            </div>
+            <!-- 更多开胃菜 -->
+        </section>
+        <section id="main-courses">
+            <h2>主菜</h2>
+            <div class="menu-item">
+                <h3>宫保鸡丁</h3>
+                <p>经典川菜，鸡肉与辣椒的完美结合。</p>
+                <span class="price">¥35</span>
+                <button class="add-to-cart" data-name="宫保鸡丁" data-price="35">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>红烧肉</h3>
+                <p>肥而不腻的红烧肉，入口即化。</p>
+                <span class="price">¥40</span>
+                <button class="add-to-cart" data-name="红烧肉" data-price="40">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>麻婆豆腐</h3>
+                <p>麻辣鲜香的麻婆豆腐，传统川菜。</p>
+                <span class="price">¥28</span>
+                <button class="add-to-cart" data-name="麻婆豆腐" data-price="28">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>北京烤鸭</h3>
+                <p>皮脆肉嫩的北京烤鸭，搭配薄饼和葱丝。</p>
+                <span class="price">¥98</span>
+                <button class="add-to-cart" data-name="北京烤鸭" data-price="98">加入购物车</button>
+            </div>
+            <!-- 更多主菜 -->
+        </section>
+        <section id="desserts">
+            <h2>甜点</h2>
+            <div class="menu-item">
+                <h3>芒果布丁</h3>
+                <p>香滑芒果味布丁，甜而不腻。</p>
+                <span class="price">¥20</span>
+                <button class="add-to-cart" data-name="芒果布丁" data-price="20">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>红豆汤圆</h3>
+                <p>甜蜜的红豆汤圆，暖身暖心。</p>
+                <span class="price">¥18</span>
+                <button class="add-to-cart" data-name="红豆汤圆" data-price="18">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>抹茶冰淇淋</h3>
+                <p>浓郁抹茶口味的冰淇淋，清新解腻。</p>
+                <span class="price">¥25</span>
+                <button class="add-to-cart" data-name="抹茶冰淇淋" data-price="25">加入购物车</button>
+            </div>
+            <!-- 更多甜点 -->
+        </section>
+        <section id="drinks">
+            <h2>饮品</h2>
+            <div class="menu-item">
+                <h3>冰红茶</h3>
+                <p>清爽解渴，适合搭配任何菜肴。</p>
+                <span class="price">¥10</span>
+                <button class="add-to-cart" data-name="冰红茶" data-price="10">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>柠檬水</h3>
+                <p>新鲜柠檬调制，酸甜可口。</p>
+                <span class="price">¥12</span>
+                <button class="add-to-cart" data-name="柠檬水" data-price="12">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>绿茶拿铁</h3>
+                <p>独特的绿茶风味拿铁咖啡。</p>
+                <span class="price">¥22</span>
+                <button class="add-to-cart" data-name="绿茶拿铁" data-price="22">加入购物车</button>
+            </div>
+            <div class="menu-item">
+                <h3>椰子汁</h3>
+                <p>天然椰子汁，清凉解渴。</p>
+                <span class="price">¥18</span>
+                <button class="add-to-cart" data-name="椰子汁" data-price="18">加入购物车</button>
+            </div>
+            <!-- 更多饮品 -->
+        </section>
+        <section id="cart">
+            <h2>购物车</h2>
+            <ul id="cart-items"></ul>
+            <p>总金额：<span id="total-price">¥0</span></p>
+            <button id="submit-order">提交订单</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 美食天堂. 保留所有权利.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
